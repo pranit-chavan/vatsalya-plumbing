@@ -1,0 +1,29 @@
+# Environment Variables - NEVER commit these to GitHub
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite logs
+*.log
+vite-*.log
+vite-*.err.log
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
